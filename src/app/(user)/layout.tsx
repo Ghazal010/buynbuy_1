@@ -1,20 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { GeistSans, GeistMono } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer";
 import SideBar from "@/components/SideBar";
 import Layout from "@/components/Layout";
 import { Toaster } from "react-hot-toast";
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { Inter } from "next/font/google";
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+ const inter = Inter({ subsets: ["latin"] });
+
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
+
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "BuyNBuy Vibes",
@@ -29,11 +33,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.className} antialiased`}
       >
- <Layout>
- <Header />
-      {children}
+        <Layout>
+          <Header />
+          {children}
       <SideBar />
       <Footer />
       <Toaster position="bottom-right" toastOptions={{

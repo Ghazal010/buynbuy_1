@@ -3,10 +3,10 @@ import React from 'react'
 import Image from 'next/image'
 import google from '@/assets/google.png'
 import { auth, signIn } from '@/auth'
-import { redirect } from 'next/navigation'
+// import { redirect } from 'next/navigation'
 
 const SignInPage = async () => {
-  const session = await auth();
+  // const session = await auth();
   // if(!session?.user)
   //   {redirect('/');
       

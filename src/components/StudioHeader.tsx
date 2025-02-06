@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { IoReturnDownBack } from 'react-icons/io5'
 import Logo from './logo'
-//@ts-expect-error: component props are not strictly typed
+
 
 const StudioHeader = (props) => {
   return (
