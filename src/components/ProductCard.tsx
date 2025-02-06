@@ -65,8 +65,8 @@ const ProductCard = ({ item }: { item: productsData }) => {
         {/* Description */}
         <p className="text-sm text-lightText line-clamp-2 text-center">{item.description}</p>
         <div className='flex items-center gap-3 mb-5'>
-            <FormatedPrice amount={item?.rowprice} className="text-lightText line-through" />
-            <FormatedPrice amount={item?.price} className="text-darkOrange font-bold" />
+            {/* <FormatedPrice amount={item?.rowprice} className="text-lightText line-through" /> */}
+            <FormatedPrice amount={item?.price} className="text-orange-500 font-bold" />
         </div>
       </div>
       <AddToCartButton item={item} />

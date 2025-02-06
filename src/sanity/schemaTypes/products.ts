@@ -25,7 +25,7 @@ export default defineType({
       }),
       defineField({
         name: "description",
-        type: "text", // Use `text` for longer descriptions
+        type: "text", // for longer descriptions
         title: "Description",
         description: "A detailed description of the product",
       }),
