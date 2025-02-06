@@ -118,18 +118,18 @@ const SingleProductPage = async ({ params }: Props) => {
                         <div className="flex flex-col gap-5">
                             <h2 className="text-xl font-semibold">{product.title}</h2>
                             <div className="flex items-center gap-4">
-                                <p className="line-through text-lg font-normal text-gray-500">
+{/*                                 <p className="line-through text-lg font-normal text-gray-500">
                                     <FormatedPrice amount={product.rowprice} className="text-lg font-bold" />
-                                </p>
+                                </p> */}
                                 <FormatedPrice amount={product.price} className="text-lg font-bold" />
-                                <p className="text-sm">
+{/*                                 <p className="text-sm">
                                     You Saved{' '}
                                     <FormatedPrice
                                         amount={product?.rowprice - product.price}
                                         className="text-white px-2 rounded-md text-xs font-bold bg-lightGreen py-1"
                                     />{' '}
                                     From This Item
-                                </p>
+                                </p> */}
                             </div>
                             <div className="text-base text-lightText flex items-center">
                                 {Array.from({ length: 5 }).map((_, index) => {
