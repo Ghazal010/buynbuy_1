@@ -1,0 +1,18 @@
+Deployment Preparation & Staging Environment Setup
+
+Key Steps:
+
+Hosting Platform Setup: Deploy to Vercel (recommended) or Netlify.
+
+Environment Variable Configuration: Secure API keys and credentials using .env files.
+
+Deploy to Staging: Validate deployment and test application behavior.
+
+Staging Environment Testing:
+
+Functional Testing: Verify product listing, search, and checkout.
+
+Performance Testing: Use Lighthouse or GTmetrix.
+
+Security Testing: Validate API security, HTTPS usage, and input validation.
+
