@@ -1,0 +1,22 @@
+Dynamic Frontend Components
+
+Essential Components to Build:
+
+Product Listing Component: Display products dynamically in a grid layout.
+
+Product Detail Component: Show individual product details with routing.
+
+Category Component: Enable filtering products by category.
+
+Search Bar: Implement search functionality.
+
+Cart Component: Manage added items and calculate total price.
+
+Checkout Flow Component: Multi-step form for order placement.
+
+User Profile Component: Show user details and order history.
+
+Admin Dashboard: Manage products, orders, and discounts.
+
+Discount & Promotion Component: Display dynamic discounts.
+
