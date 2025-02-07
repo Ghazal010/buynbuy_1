@@ -1,0 +1,36 @@
+Testing, Error Handling & Backend Refinement
+
+Key Areas of Focus:
+
+Functional Testing: Validate core functionalities like product listing, cart operations, and checkout.
+
+Error Handling: Implement proper error messages for network failures, invalid data, and unexpected errors.
+
+Performance Optimization: Use tools like Lighthouse to improve page load times.
+
+Cross-Browser Testing: Ensure compatibility across Chrome, Firefox, Safari, and Edge.
+
+Security Testing: Validate API security, prevent injection attacks, and secure API keys.
+
+User Acceptance Testing (UAT): Simulate real-world usage and refine UX.
+
+Documentation Updates: Record test cases, fixes, and optimizations.
+
+Testing Tools & Methods:
+
+Postman: API testing.
+
+React Testing Library: Component-level testing.
+
+
+Example Error Handling Code:
+
+try {
+  const data = await fetchProducts();
+  setProducts(data);
+} catch (error) {
+  console.error("Failed to fetch products:", error);
+  setError("Unable to load products. Please try again later.");
+}
+
+
