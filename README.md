@@ -13,6 +13,8 @@ pnpm dev
 # or
 bun dev
 ```
+Open and Check: https://curly-train-r47gq6vp46wr3gw5-3000.app.github.dev/
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
